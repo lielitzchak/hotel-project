@@ -101,9 +101,7 @@ input {
   font-family: "Suez One", serif;
 }
 
-h3 {
-  text-align: center;
-}
+
 */ .forMyCenter {
   justify-content: center;
   align-content: center;
@@ -165,7 +163,10 @@ h3 {
     width: 50%;
   }
   img {
-    width: 40%;
+    width: 90%;
+  }
+  h3 {
+    text-align: center;
   }
   .HomeTitle {
     font-family: "Karantina", cursive;
