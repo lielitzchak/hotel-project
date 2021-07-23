@@ -1,28 +1,24 @@
 /* css לדף הראשי גרסה של מסך מחשב */
 
- 
-/* 
 body {
   background-color: blanchedalmond;
-
-  background-color: aliceblue;
-} */
+  color: black;
+}
 
 #myLogo {
   height: 90px;
   width: 90px;
   border-radius: 50%;
 }
-*/
-img {
+*/ img {
   border-radius: 4%;
-} 
+}
 .mySection {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
-  height: 4%; 
- width: 100%;
+  height: 4%;
+  width: 100%;
 }
 
 .MyLinks {
@@ -37,7 +33,7 @@ img {
 
 .ParagraphHotelsHome {
   color: black;
-} 
+}
 
 .HomeTitle {
   font-family: "Karantina", cursive;
@@ -70,11 +66,10 @@ img {
   min-height: 100vh;
   display: flex;
   position: relative;
-   
-  background-image: url(/papar.jpg);
-} */
 
-input {
+  background-image: url(/papar.jpg);
+}
+*/ input {
   height: 4%;
   display: flex;
   position: relative;
@@ -173,7 +168,8 @@ h3 {
     background: pink;
   }
   #myLogo {
-size: 100%;  }
+    size: 100%;
+  }
   img {
     width: 100%;
   }
