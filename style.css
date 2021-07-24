@@ -3,7 +3,7 @@
 /* :root {
   --black (#black)
 } */
-/* * {
+* {
   box-sizing: border-box;
 }
 
@@ -14,21 +14,25 @@ body {
 }
 
 #myLogo {
-  height: 90px;
-  width: 90px;
-  border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
-*/
+.mySection {
+  display: flex;
+}
 img {
-  border-radius: 4%;
-} /*
+  height: 100px;
+  width: 200px;
+}
+
+/*
 .mySection {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
-  height: 4%; */
-/* width: 100%;
-}*/
+  height: 4%; 
+ width: 100%;
+}
 
 .MyLinks {
   text-decoration: none;
@@ -101,7 +105,6 @@ input {
   font-family: "Suez One", serif;
 }
 
-
 */ .forMyCenter {
   justify-content: center;
   align-content: center;
@@ -156,9 +159,9 @@ input {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  * {
+  /* * {
     background: pink;
-  }
+  } */
   #myLogo {
     width: 380px;
   }
@@ -167,7 +170,6 @@ input {
   }
   h3 {
     text-align: center;
-
   }
   .HomeTitle {
     text-align: center;
@@ -183,17 +185,63 @@ input {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  * {
+  /* * {
     background: blue;
-  }
+  } */
   #myLogo {
     width: 50%;
   }
-  img {
-    width: 50%;
+  .MyLinks {
+    text-decoration: none;
   }
-  .HomeTitle {
+  .hotelPage {
+    transition-duration: 2s;
+  }
+  .hotelPage .dadImg:hover {
+    color: blue;
+
+  }
+  .dadImg {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  img {
+    justify-content: space-evenly;
+    width: 288px;
+    height: 288px;
+  }
+  .HomeTitle,
+  h1 {
     font-family: "Karantina", cursive;
     color: pink;
+    font-size: 66px;
   }
+  .ParagraphHotelsHome {
+    font-size: 15px;
+  }
+  .AllEvents {
+    display: flex;
+    justify-content: space-evenly;
+  }
+.forCenter {
+  display: flex;
+}
+input {
+  border-radius: 4%;
+  height: 50px;
+  width: 300px;
+  background-color: rgb(140, 140, 141);
+}
+.mySubmit {
+  background-color: rgb(0, 218, 83);
+  border-radius: 4%;
+}
+select {
+  border-radius: 4%;
+}
+
+h6 {
+  text-align: center;
+  font-size: 1%;
+}
 }
