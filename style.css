@@ -48,6 +48,9 @@ input {
   #myLogo {
     width: 380px;
   }
+  main {
+    margin-right: 4%;
+  }
   .MyLinks {
     display: flex;
     justify-content: flex-start;
@@ -58,8 +61,10 @@ input {
     width: 90%;
   }
 
-  h3 {
+   .contentForForm {
     text-align: center;
+    font-size: 93px;
+    font-family: 'Dancing Script', cursive;
   }
   .HomeTitle {
     text-align: center;
@@ -74,6 +79,10 @@ input {
   .myForm {
     font-size: 45px;
     margin-right: 24%;
+  }
+  .mySubmit {
+    font-family: 'Dancing Script', cursive;
+
   }
   h6 {
     text-align: center;

@@ -80,6 +80,7 @@
   }
   .TwoEmployees {
 display: flex;
+align-content: center;
 
   }
 
@@ -92,4 +93,20 @@ display: flex;
       font-size: 72px;
       font-family: 'Miriam Libre', sans-serif;
   }
+  .contentForForm {
+    text-align: center;
+    font-size: 69px;
+    font-family: 'Dancing Script', cursive; 
+  }
+  .myForm {
+    font-size: 45px;
+    display: contents;
+  }
+  .mySubmit {
+    font-family: 'Dancing Script', cursive;
+  }
+  h6 {
+    text-align: center;
+  }
+  
 }
