@@ -1,14 +1,76 @@
-/* css לדף הראשי
-/* גרסה של מסך מחשב */
-/* :root {
-  --black (#black)
-} */
-/* * {
-  box-sizing: border-box;
-} */
+/* css לדף הראשי גרסה של מסך מחשב */
 
-input {
-  /* height: 4%; */
+body {
+  background-color: blanchedalmond;
+  color: black;
+}
+
+#myLogo {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+*/ img {
+  border-radius: 4%;
+}
+.mySection {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  height: 4%;
+  width: 100%;
+}
+
+.MyLinks {
+  text-decoration: none;
+}
+.MyLinks {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+
+.ParagraphHotelsHome {
+  color: black;
+}
+
+.HomeTitle {
+  font-family: "Karantina", cursive;
+  color: pink;
+}
+.MyLinks:hover {
+  background-color: rgba(165, 164, 164, 0.308);
+}
+
+.AllEvents {
+  display: flex;
+  justify-content: space-evenly;
+}
+.AllEvents div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+.AllEvents img {
+  height: 33%;
+}
+.myForm {
+  width: 40%;
+  border-radius: 22%;
+  color: rgb(52, 191, 196);
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+
+  background-image: url(/papar.jpg);
+}
+*/ input {
+  height: 4%;
   display: flex;
   position: relative;
   flex-direction: column-reverse;
@@ -29,6 +91,9 @@ input {
   font-family: "Suez One", serif;
 }
 
+h3 {
+  text-align: center;
+}
 */ .forMyCenter {
   justify-content: center;
   align-content: center;
@@ -38,120 +103,78 @@ input {
   display: flex;
 }
 
-/* Extra small devices (phones, 600px and down)
-@media only screen and (min-width: 600px) {
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-device-width: 10px) and (max-device-width: 425px) {
-
-  #myLogo {
-    width: 380px;
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (min-width: 600px) {
+  * {
+    background: red;
   }
   main {
-    margin-right: 4%;
+    padding: 1%;
   }
-  .MyLinks {
-    display: flex;
-    justify-content: flex-start;
-    text-decoration: none;
-    transition-duration: 1s;
-  }
-  img {
-    width: 90%;
-  }
-
-   .contentForForm {
-    text-align: center;
-    font-size: 93px;
-    font-family: 'Dancing Script', cursive;
-  }
-  .HomeTitle {
-    text-align: center;
-    font-size: 196px;
-    font-family: "Karantina", cursive;
-    color: black;
-  }
-  .ParagraphHotelsHome {
-    font-size: 55px;
-    color: black;
-  }
-  .myForm {
-    font-size: 45px;
-    margin-right: 24%;
-  }
-  .mySubmit {
-    font-family: 'Dancing Script', cursive;
-
-  }
-  h6 {
-    text-align: center;
-  }
-}
-
-@media only screen and (min-width: 992px) {
   #myLogo {
     width: 50%;
   }
-  main {
-    background: rgba(223, 195, 160, 0.418);
+  img {
+    width: 95%;
   }
-.myTitelForAll {
-  font-size: 100px;
-  color: black;
-  text-align: center;
-  font-family: 'Parisienne', cursive;
-}
-  .mySection {
-    display: flex;
-  }
-  .MyLinks {
-    text-decoration: none;
-  }
-  .hotelPage {
-    transition-duration: 2s;
-  }
-
-  .dadImg {
-    display: flex;
-    justify-content: space-evenly;
-    width: 288px;
-    height: 288px;
-  }
-
-  .MyLinks:hover {
-    transition: 1s;
-    background-color: rgba(92, 92, 92, 0.233);
-  }
-  .HomeTitle,
-  h1 {
+  .HomeTitle {
+    text-align: center;
     font-family: "Karantina", cursive;
     color: pink;
-    font-size: 66px;
   }
+
   .ParagraphHotelsHome {
-    font-size: 15px;
+    color: black;
   }
-  img .dadImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .AllEvents {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .forCenter {
-    margin-right: 40%;
-    font-size: 21%;
-  }
-  .mySubmit {
-    border-radius: 3%;
-  }
-
-  h6 {
+  .myForm {
+    color: rgb(52, 191, 196);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 1%;
+    /* min-height: 100vh; 
+    display: flex;
+    position: relative;
+  }
+  .myForm input {
+    color: black;
+  }
+  footer h6 {
+    text-align: right;
+    font-size: 2%;
+  }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  * {
+    background-color: rgb(248, 234, 212);
+  }
+  #myLogo {
+    width: 50%;
+  }
+  img {
+    width: 100%;
+  }
+  .HomeTitle {
+    font-family: "Karantina", cursive;
+    color: pink;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 768px) {
+  * {
+    background: pink;
+  }
+  #myLogo {
+    size: 100%;
+  }
+  img {
+    width: 100%;
+  }
+  .HomeTitle {
+    font-family: "Karantina", cursive;
+    color: pink;
   }
 }
