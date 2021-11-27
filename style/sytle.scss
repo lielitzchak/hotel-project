@@ -1,5 +1,10 @@
-* {
+@mixin flexCenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,22 +18,26 @@ body {
     direction: rtl;
     background-color: whitesmoke;
 
-    #myLogo {
-        height: 90px;
-        width: 90px;
-        border-radius: 50%;
-    }
-    // img {
-    //     border-radius: 4%;
-    // }
+    header {
+        background-color: whitesmoke;
+        @include flexCenter();
+        position: sticky;
+        top: 0;
 
-    // .navbar-nav {
-    // display: flex;
-    // }
-    nav,
-    .navbar-nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        .contact-logos {
+            @include flexCenter();
+            justify-content: end;
+        }
+
+        .contact-logos-img {
+            width: 8%;
+            height: auto;
+        }
+
+        .navbar-nav {
+            @include flexCenter();
+        }
     }
+
+
 }

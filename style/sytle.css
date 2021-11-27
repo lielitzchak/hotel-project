@@ -14,14 +14,43 @@ body {
   background-color: whitesmoke;
 }
 
-body #myLogo {
-  height: 90px;
-  width: 90px;
-  border-radius: 50%;
+body header {
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
-body nav,
-body .navbar-nav {
+body header .contact-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+body header .contact-logos-img {
+  width: 8%;
+  height: auto;
+}
+
+body header .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
