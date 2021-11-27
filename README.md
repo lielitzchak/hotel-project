@@ -1,8 +1,1 @@
-# hotel-project
-# hotel-project
-# hotel-project
-# hotel-project
-# hotel-project
-# hotel-project
-# m-
-
+#my first project in HTML  and CSS
