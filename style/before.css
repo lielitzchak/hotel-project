@@ -1,16 +1,11 @@
 /* css לדף הראשי גרסה של מסך מחשב */
 
-body {
-  background-color: blanchedalmond;
-  color: black;
-}
-
 #myLogo {
   height: 90px;
   width: 90px;
   border-radius: 50%;
 }
-*/ img {
+img {
   border-radius: 4%;
 }
 .mySection {
@@ -29,10 +24,6 @@ body {
   justify-content: flex-start;
   text-decoration: none;
   transition-duration: 1s;
-}
-
-.ParagraphHotelsHome {
-  color: black;
 }
 
 .HomeTitle {
@@ -58,7 +49,6 @@ body {
 .myForm {
   width: 40%;
   border-radius: 22%;
-  color: rgb(52, 191, 196);
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -66,10 +56,9 @@ body {
   min-height: 100vh;
   display: flex;
   position: relative;
-
   background-image: url(/papar.jpg);
 }
-*/ input {
+ input {
   height: 4%;
   display: flex;
   position: relative;
@@ -123,9 +112,7 @@ h3 {
     color: pink;
   }
 
-  .ParagraphHotelsHome {
-    color: black;
-  }
+
   .myForm {
     color: rgb(52, 191, 196);
     justify-content: center;
@@ -136,9 +123,7 @@ h3 {
     display: flex;
     position: relative;
   }
-  .myForm input {
-    color: black;
-  }
+
   footer h6 {
     text-align: right;
     font-size: 2%;

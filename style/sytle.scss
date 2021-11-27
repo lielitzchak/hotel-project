@@ -1,0 +1,35 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: Rubik, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    direction: rtl;
+    background-color: whitesmoke;
+
+    #myLogo {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+    }
+
+    // img {
+    //     border-radius: 4%;
+    // }
+
+    // .navbar-nav {
+    // display: flex;
+    // }
+    nav,
+    .navbar-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
