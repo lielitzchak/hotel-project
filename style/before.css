@@ -1,50 +1,11 @@
 /* css לדף הראשי גרסה של מסך מחשב */
 
-#myLogo {
-  height: 90px;
-  width: 90px;
-  border-radius: 50%;
-}
-img {
-  border-radius: 4%;
-}
 .mySection {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
   height: 4%;
   width: 100%;
-}
-
-.MyLinks {
-  text-decoration: none;
-}
-.MyLinks {
-  display: flex;
-  justify-content: flex-start;
-  text-decoration: none;
-  transition-duration: 1s;
-}
-
-.HomeTitle {
-  font-family: "Karantina", cursive;
-  color: pink;
-}
-.MyLinks:hover {
-  background-color: rgba(165, 164, 164, 0.308);
-}
-
-.AllEvents {
-  display: flex;
-  justify-content: space-evenly;
-}
-.AllEvents div {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: nowrap;
-}
-.AllEvents img {
-  height: 33%;
 }
 .myForm {
   width: 40%;
@@ -56,20 +17,16 @@ img {
   min-height: 100vh;
   display: flex;
   position: relative;
-  background-image: url(/papar.jpg);
+  margin: auto;
+  background-image: url(../media/papar.jpg);
 }
- input {
+input {
   height: 4%;
   display: flex;
   position: relative;
   flex-direction: column-reverse;
   align-items: center;
 }
-
-.forCenter {
-  font-family: "Suez One", serif;
-}
-
 .mySubmit {
   background: none;
   border: 2px solid;
@@ -80,10 +37,7 @@ img {
   font-family: "Suez One", serif;
 }
 
-h3 {
-  text-align: center;
-}
-*/ .forMyCenter {
+.forMyCenter {
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -91,62 +45,6 @@ h3 {
   min-height: 100vh;
   display: flex;
 }
-
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (min-width: 600px) {
-  * {
-    background: red;
-  }
-  main {
-    padding: 1%;
-  }
-  #myLogo {
-    width: 50%;
-  }
-  img {
-    width: 95%;
-  }
-  .HomeTitle {
-    text-align: center;
-    font-family: "Karantina", cursive;
-    color: pink;
-  }
-
-
-  .myForm {
-    color: rgb(52, 191, 196);
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    /* min-height: 100vh; 
-    display: flex;
-    position: relative;
-  }
-
-  footer h6 {
-    text-align: right;
-    font-size: 2%;
-  }
-} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  * {
-    background-color: rgb(248, 234, 212);
-  }
-  #myLogo {
-    width: 50%;
-  }
-  img {
-    width: 100%;
-  }
-  .HomeTitle {
-    font-family: "Karantina", cursive;
-    color: pink;
-  }
-}
-
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 768px) {
   * {
