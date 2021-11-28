@@ -39,6 +39,13 @@
   list-style: none;
 }
 
+h1,
+h4,
+h3,
+h6 {
+  text-align: center;
+}
+
 body {
   direction: rtl;
   background-color: whitesmoke;
@@ -95,11 +102,6 @@ body header .navbar-nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-body main h1,
-body main h4 {
-  text-align: center;
 }
 
 body main .hotels {
@@ -181,5 +183,125 @@ body main .events section a .desc-img {
 body main .events section .details-img {
   height: 4%;
   width: auto;
+}
+
+body .form {
+  background-color: #15172b;
+  border-radius: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 320px;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+body .form h3 {
+  color: white;
+}
+
+body .form .input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+body .form .submit {
+  background-color: #5eacdd;
+  border-radius: 12px;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  text-align: center;
+  width: 100%;
+}
+
+body .form .input:focus ~ .placeholder {
+  color: whitesmoke;
+}
+
+body .form .ic1 {
+  margin-top: 40px;
+}
+
+body .form .ic2 {
+  margin-top: 30px;
+}
+
+body .form .placeholder {
+  color: #65657b;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform-origin: 0 50%;
+          transform-origin: 0 50%;
+  -webkit-transition: color 200ms, -webkit-transform 200ms;
+  transition: color 200ms, -webkit-transform 200ms;
+  transition: transform 200ms, color 200ms;
+  transition: transform 200ms, color 200ms, -webkit-transform 200ms;
+  top: 20px;
+}
+
+body .form .input:focus ~ .cut,
+body .form .input:not(:placeholder-shown) ~ .cut {
+  -webkit-transform: translateY(8px);
+          transform: translateY(8px);
+}
+
+body .form .input:focus ~ .placeholder,
+body .form .input:not(:placeholder-shown) ~ .placeholder {
+  -webkit-transform: translateY(-30px) translateX(10px) scale(0.75);
+          transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+body .form .subtitle {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+body .form .input {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+body .form .cut {
+  background-color: #15172b;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: -webkit-transform 200ms;
+  transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
+  width: 76px;
+}
+
+body .form .cut-short {
+  width: 50px;
 }
 /*# sourceMappingURL=sytle.css.map */
