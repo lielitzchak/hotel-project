@@ -3,5 +3,8 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: lowercase;
 }
 /*# sourceMappingURL=pages.css.map */

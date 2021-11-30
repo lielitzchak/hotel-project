@@ -2,5 +2,14 @@
     background-origin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font: {
+        size: 18px;
+        weight: bold;
+    }
+
+    text: {
+        transform: lowercase;
+    }
+
 }
-// @include flexCenter();
