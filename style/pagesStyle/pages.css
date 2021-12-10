@@ -7,4 +7,23 @@
   font-weight: bold;
   text-transform: lowercase;
 }
+
+body img {
+  border-radius: 10px;
+}
+
+body .title img {
+  position: relative;
+}
+
+body .Employee {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .Employee img {
+  width: 100px;
+}
 /*# sourceMappingURL=pages.css.map */
