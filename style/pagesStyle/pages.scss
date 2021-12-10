@@ -13,3 +13,25 @@
     }
 
 }
+
+body {
+    img {
+        border-radius: 10px;
+    }
+
+    .title {
+        img {
+            position: relative;
+        }
+    }
+
+    .Employee {
+        width: 100%;
+        display: flex;
+
+        img {
+            width: 100px;
+        }
+
+    }
+}
