@@ -1,10 +1,10 @@
 * {
-    background-origin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 
     font: {
-        size: 18px;
+        // size: 18px;
         weight: bold;
     }
 
@@ -20,17 +20,41 @@ body {
     }
 
     .title {
+        padding-top: 1%;
+        // margin: 4%;
+        display: flex;
+        justify-content: center;
+
+        p {
+            padding-left: 25%;
+            margin-right: 11%;
+        }
+
         img {
             position: relative;
         }
     }
 
     .Employee {
-        width: 100%;
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 26%);
+        gap: 9%;
+
+        h5 {
+            font-size: 24px;
+            text-align: center;
+        }
 
         img {
-            width: 100px;
+            width: 100%;
+        }
+    }
+
+    .divForm {
+        padding-top: 6%;
+
+        .form {
+            height: 585px;
         }
 
     }
